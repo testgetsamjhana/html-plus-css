@@ -1,0 +1,212 @@
+<html>
+    <head>
+        
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>samjhana</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--header start-->
+        <section class="header">
+            <nav>
+             <a herf="index.html"> <img src = "image/logo.png"></a>
+             
+            <div class="link" id="navlink">
+            
+                <i class="fa fa-window-close" onclick="hidemenu()"></i>
+            
+                <ul>
+                   <a href= "home.html"> <li>Home</li></a>
+                   <a href= "About us.html"> <li>About us</li></a>
+                   <a href= "Department.html"><li>Departments</li></a>
+
+                   <a href= "Helth packages.html"> <li>Helth packages</li></a>
+                  <a href= "Docter.html"> <li>Docters</li></a>
+                  <a href= " Contact.html"> <li>Contact</li></a>
+                     
+                </ul>
+             </div>
+
+             <i class="fa fa-bars" onclick="showmenu()"></i>
+             
+
+            </nav>
+            <div class="textbox">
+
+                <h1>welcome to our hospital</h1>
+                <p>complete E-learning portal</p><br><br>
+
+                <a href="form.html" class= "register-button" onclick="showform()">Register here!</a>
+            </div>
+            <div class="formbox" id="formbox">
+                <i class="fa fa-window-close" onclick="hideform()"></i>
+                Register here
+            </div>
+<div class= "formbox" id= "formbox">
+<i class="fa fa-window-close" onclick="hideform()"></i>
+
+    Register here
+
+</div>
+<script>
+var formbox = document.getElementById("formbox");
+
+
+function showform(){
+
+
+formbox.style.display="block";
+}
+function hidenform(){
+
+formbox.style.display="none";
+}
+
+</script>
+
+
+
+        </section>
+        
+        <!--header close-->
+        <!--feature start-->
+
+
+        <section class="feature">
+            <h2></h2>
+            <h2 class="feat"> feature</h2>
+            <p>service we provide</p>
+            <div class="row">
+            <div class="col">
+                <h3>location and parking</h3><br>
+              <p>Consider whether the hospital’s location is safe and convenient for you, your family,
+                 friends, and advocate. Is the hospital accessible by public transportation? Does the 
+                 hospital have convenient and inexpensive parking? </p1>
+                 
+
+            </div>
+            <div class="col">
+            <h2>Patient Rooms, Privacy, & Visit</h2><br>
+            <p>Find out whether you will share a room and how your privacy will be maintained. Ask about the hospital’s policy
+                 on visitors to find out the hours, if there is a limit on how many visitors you may have at one time or in one day,
+                  and what sort of accommodations are available for overnight visitors such as your spouse or advocate.</p>
+<i class="fa-solid fa-star"></i>
+
+
+
+            
+        
+            </div>
+            <div class="col">
+                <h2>Dietary Restrictions & Cafeteria</h2><br>
+                <p>many people have restrictions on the food they eat. These may be for:
+
+                    Health maintenance (such as low-sodium or low-fat diets)
+                    Food allergies (such as peanuts or shellfish)
+                    Ethics or religion (such as limiting animal products)</p>
+                    <i class="fa fa-star"></i>
+                
+                    <i class="fa fa-star"></i>
+                </div>
+                </div>
+        </sectio>
+        <!--feature close-->
+        <!--department start-->
+
+        
+    
+
+
+
+<!--feeback start-->
+<section class="feedback">
+
+    <h2 class="feat">feedback</h2>
+    <p> what our people say</p>
+
+
+        <div class="row"> 
+
+
+    <div class="feed-col">
+    <img src="image/download (1).jfif">
+    <div class="feedname">
+    <h4> sapana</h4>
+<p><i>"Thank you so much for your kind and thoughtful concern in 
+    regard to my health and providing me with excellent medical and physical care.
+     I am most grateful for your kindness whenever I see you."</i> </p>
+     <i class="fa-solid fa-star"></i></div>
+</div>
+
+ <div class="feed-col">
+<img src="image/download.jfif">
+<div class="feedname">
+<h4> sujata</h4>
+<p><i>"You are an amazing doctor. You are always there for every concern.
+     You have been so in step with David. We so appreciate all you do!
+    From,"</i></p></div>
+
+    </div>
+
+        <div class="feed-col">
+
+<img src="image/barshajfif.jfif">
+<div class="feedname">
+<h4> purnima</h4>
+<p><i>"You first met me in 20210 at Crouse Hospital when I was brought there. 
+    I had surgery for triple bypass and you have been with me since.
+     Back then I called you my TV doctor. Thank you so much for caring for me."</i></p></div>
+
+</div>
+</section>
+
+
+
+<!--feedback close-->
+<!--about us start-->>
+<section class="aboutus">
+    <h1> we are connected with you</h1>
+    <a href="form.html" class= "register-button">About us!</a>
+
+
+
+</section>
+
+
+<!--about us close-->
+<!--footer section start-->
+
+
+
+
+<section class="footer">
+
+    <h3>lets socilize</h3>
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-instagram"></i>
+    <i class="fa fa-whatapp"></i>
+
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-copyright"></i> <p>please follow us and knowing our hospital</p>
+    <div clas="lastline">
+        copyright 2021
+    </div>
+</div>
+
+</section>
+
+
+<!--footer section close-->
+<script>
+
+var navlink = document.getElementById("navlink");
+
+function showmenu(){
+    navlink.style.right="0";
+}
+
+
+
+</body>
+</html> 
